@@ -1,13 +1,13 @@
 {
-  "name": "@academic-portfolio/source",
+  "name": "@predenta/source",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test",
-    "predeploy": "nx build academic-portfolio",
-    "deploy": "gh-pages -d dist/academic-portfolio"
+    "predeploy": "nx build predenta",
+    "deploy": "gh-pages -d dist/predenta"
   },
   "private": true,
   "dependencies": {
